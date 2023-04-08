@@ -5,7 +5,7 @@
 
 S = int(input("Введите количество журавликов, которе сделали дети: "))
 if (S%6 != 0):
-    print("Нельзя определить!")
+    print("Нельзя определить")
 else:
     quantity = int(S / 6)
-    print(f"Петя сделал: {quantity}, Сережа сделал: {quantity}, Катя сделала: {quantity*4}")
+    print(f"{quantity} {quantity*4} {quantity}")
