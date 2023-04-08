@@ -12,6 +12,6 @@ else:
     sum_left = int(ticket[0:1])+int(ticket[1:2])+int(ticket[2:3])
     sum_right = int(ticket[3:4])+int(ticket[4:5])+int(ticket[5:6])
     if(sum_left == sum_right):
-        print("Билет счастливый!")
+        print("yes")
     else:
-        print("Билет не счастливый!")
+        print("no")
