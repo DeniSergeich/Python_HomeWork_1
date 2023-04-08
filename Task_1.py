@@ -4,4 +4,4 @@ number = int(input("Введите трехзанчное число: "))
 if(number>999 or number<100):
     print("Вы ввели не трехзначное число!")
 else:
-    print(f"Сумма цифр числа {number} равна: {(number//100%10)+(number//10%10)+(number%10)}")
+    print(f"{(number//100%10)+(number//10%10)+(number%10)} ({(number//100%10)} + {(number//10%10)} + {(number%10)})")
